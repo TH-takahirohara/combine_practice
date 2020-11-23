@@ -17,28 +17,51 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfU-ub-cLh">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <rect key="frame" x="184" y="165" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lN-Vk-XiS">
-                                <rect key="frame" x="186" y="392" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Button Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lN-Vk-XiS">
+                                <rect key="frame" x="158.5" y="94" width="97" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TextField Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiZ-2z-MYA">
+                                <rect key="frame" x="150" y="295" width="114" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ghp-C4-9nh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V31-6G-lq9">
+                                <rect key="frame" x="157" y="366" width="100" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="PPK-Oo-UuE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0lN-Vk-XiS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0SV-hn-ac4"/>
-                            <constraint firstItem="JfU-ub-cLh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ACA-RJ-BJJ"/>
-                            <constraint firstItem="JfU-ub-cLh" firstAttribute="top" secondItem="0lN-Vk-XiS" secondAttribute="bottom" constant="20" id="ELX-Xx-tGQ"/>
-                            <constraint firstItem="JfU-ub-cLh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hfr-pe-svo"/>
+                            <constraint firstItem="DiZ-2z-MYA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1as-9F-V9z"/>
+                            <constraint firstItem="V31-6G-lq9" firstAttribute="top" secondItem="DiZ-2z-MYA" secondAttribute="bottom" constant="50" id="D79-Yp-hcM"/>
+                            <constraint firstItem="0lN-Vk-XiS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ErA-7Q-ffg"/>
+                            <constraint firstItem="V31-6G-lq9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wuu-LW-hB7"/>
+                            <constraint firstItem="DiZ-2z-MYA" firstAttribute="top" secondItem="JfU-ub-cLh" secondAttribute="bottom" constant="100" id="bKE-ie-3gZ"/>
+                            <constraint firstItem="0lN-Vk-XiS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lr4-nl-nog"/>
+                            <constraint firstItem="JfU-ub-cLh" firstAttribute="top" secondItem="0lN-Vk-XiS" secondAttribute="bottom" constant="50" id="tSD-o9-2KK"/>
+                            <constraint firstItem="JfU-ub-cLh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y04-0A-Eyq"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="JfU-ub-cLh" id="p7A-Q8-FRU"/>
                         <outlet property="label" destination="0lN-Vk-XiS" id="BWB-MP-ufB"/>
+                        <outlet property="textField" destination="V31-6G-lq9" id="wXe-hV-lkU"/>
+                        <outlet property="textFieldLabel" destination="DiZ-2z-MYA" id="sfg-Ty-lHZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

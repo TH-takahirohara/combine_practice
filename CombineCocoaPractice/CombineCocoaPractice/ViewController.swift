@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     var subscriptions = Set<AnyCancellable>()
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var button: UIButton!
-
+    @IBOutlet weak var textFieldLabel: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,6 +24,11 @@ class ViewController: UIViewController {
             .sink { [weak self] _ in
                 self?.label.text = "button tapped"
             }
+            .store(in: &subscriptions)
+        
+        textField.textPublisher
+            .compactMap { $0 }
+            .assign(to: \.text, on: textFieldLabel)
             .store(in: &subscriptions)
     }
 }
