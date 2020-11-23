@@ -1,0 +1,6 @@
+module Pods_CombineCocoaPractice {
+  umbrella header "Pods-CombineCocoaPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}

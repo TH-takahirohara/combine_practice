@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0005BAD2CDF5A27BC15D4FC702A09BE9 /* UITextView+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463B0912EB501FC29E162D0AE476E21 /* UITextView+Combine.swift */; };
+		0BADAD077E9F475DF0A487AD3F8B38CB /* DelegateProxyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563F8F0FF93B4A5E9EC73FA32A672DE /* DelegateProxyType.swift */; };
+		1D9D5C6E89680F7FB73933A41E9CD95E /* Pods-CombineCocoaPractice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE24D1286FE03DAC05F98ADFDA14A6E /* Pods-CombineCocoaPractice-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		214A146C4243A61F21C0485A77D09292 /* UIGestureRecognizer+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2FB9FFE24620D5D7954CAEC1F9394A /* UIGestureRecognizer+Combine.swift */; };
+		2206CF444FC76E2976B2B05761516EEA /* CombineCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E6E7AB1E093D02C7B9989E971052E3 /* CombineCocoa.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26AD4E09AB6D04258C097B9040D92934 /* CombineControlProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BF07C78A69944C4E394A9F95F3280 /* CombineControlProperty.swift */; };
+		34F7BA23588382D89C8ECC3A1F6152A8 /* CombineCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D3320660ED51C0D3688E15553CCAB7A /* CombineCocoa-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F09A6255A2FCD7664A8ECC8F6632502 /* ObjcDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9153DED918343BDB14909D45461A2004 /* ObjcDelegateProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		475261A5A38038600302A3757F736483 /* UISegmentedControl+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F2175092BF096AAB2ABB31B8AA046 /* UISegmentedControl+Combine.swift */; };
+		4CCADB140FA531EC1796E924CA9A82B8 /* NSTextStorage+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E175C518ED9961B2C7AF5E1C351DE6 /* NSTextStorage+Combine.swift */; };
+		517324CF63B62F0A5A0F90AB50637BAE /* UISlider+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17652C578425E8121DA113BA3C7254D0 /* UISlider+Combine.swift */; };
+		58964B3C85A35C23F8D446665973B997 /* UIBarButtonItem+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A42E9F94427B2EE07E539C44A419CE2 /* UIBarButtonItem+Combine.swift */; };
+		667A5B0688A381C896C99E90A733AC3A /* UICollectionView+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F76ECB07710774AD42F27A210F7D79 /* UICollectionView+Combine.swift */; };
+		80472F3C43D95F7FBFF3B9D223A98BD2 /* CombineControlEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB931BA038E5EC8A4907BF021D1D2B /* CombineControlEvent.swift */; };
+		8211F76FD8F43930DCF76CA8B968B612 /* UIControl+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEBBB72690E8BB700F13B3389DCDA1 /* UIControl+Combine.swift */; };
+		911289361B8CD8AC92D23644A3221AC1 /* DelegateProxyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C796B522C6658479774F10043588E4FA /* DelegateProxyPublisher.swift */; };
+		94C96E4E225F63F37A0629C2A22BCDCE /* UIScrollView+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A07CE77A191A7B55C54AC12C89516 /* UIScrollView+Combine.swift */; };
+		99E5E6E9E920FCCB7E76EB4CA9F7A6C0 /* Pods-CombineCocoaPractice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB18A468C5151D19E1BF250B9919D7 /* Pods-CombineCocoaPractice-dummy.m */; };
+		9EC278047565CE19A5424C54FF95133F /* UISwitch+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF0EA98429EF6B86860BF07FA29BD23 /* UISwitch+Combine.swift */; };
+		9F46F44283D4D3862570930E2EFEE49E /* CombineControlTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2999ADBBC906F43BB8F1157FEDBCB /* CombineControlTarget.swift */; };
+		9FEBA5D01B50CD5E2FCF6C9FDE41D3E8 /* ObjcDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AE097D68342C3773475F62B65ABE6 /* ObjcDelegateProxy.m */; };
+		B231D7191EE7D01704F0F9D2406D60B9 /* UIPageControl+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4BC46C66E04CB1E462043A83A3C9C /* UIPageControl+Combine.swift */; };
+		C1F7A7A0B4459EFF4E089BAD29BF6464 /* UITextField+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E10E7201D95B8AAECBF085D367BE7B6 /* UITextField+Combine.swift */; };
+		C6D04FDBD45731E895B55BC839118F4C /* UIButton+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2472C75EEA64538C75495B407095370 /* UIButton+Combine.swift */; };
+		CA76EA2FDDE173C8F40523574B99DE4F /* AnimatedAssignSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F3B5D84CF847F47013B173CDC14B62 /* AnimatedAssignSubscriber.swift */; };
+		CB9022A39DF758B52C89935C4619E24C /* UIRefreshControl+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD00BF09B3B1D903A104641500E3540 /* UIRefreshControl+Combine.swift */; };
+		D6CA74E2C0D8ABD74D4F10E310804881 /* UIDatePicker+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF90CEDACD0C88474FCB0BF7D34C60 /* UIDatePicker+Combine.swift */; };
+		DE40B9F0F26A429A8AEF244D1EAAFE33 /* DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D90721DCFDA557DA8DEB0482BA88791 /* DelegateProxy.swift */; };
+		E2974FABD9E5B03F7FF517DE95982ACC /* UIStepper+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA964831BA37E8AE1EEBBD0E2C19E34D /* UIStepper+Combine.swift */; };
+		E881F0C8861A4A229A0BF728BEA40324 /* UISearchBar+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DAD7E0D69E751C829A5C91B87B4A4 /* UISearchBar+Combine.swift */; };
+		EE8AA18E245284DBF06777264AF777E8 /* CombineCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA42775A596080B849C4483026C49FB /* CombineCocoa-dummy.m */; };
+		F97D94872E84E704690D555E07FE0D6C /* UITableView+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A41F39BACC2D332E2B909384E7031 /* UITableView+Combine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75ADA67A49196BA9E743A4E38B4FD92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C11E051A417486DA3B63E1333BABA34;
+			remoteInfo = CombineCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E10E7201D95B8AAECBF085D367BE7B6 /* UITextField+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Combine.swift"; path = "Sources/CombineCocoa/Controls/UITextField+Combine.swift"; sourceTree = "<group>"; };
+		17652C578425E8121DA113BA3C7254D0 /* UISlider+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Combine.swift"; path = "Sources/CombineCocoa/Controls/UISlider+Combine.swift"; sourceTree = "<group>"; };
+		17B31261DDFF9D3AF8F893CCB765C197 /* CombineCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineCocoa.debug.xcconfig; sourceTree = "<group>"; };
+		1FA58BCC51CE3089A00683754A7262B9 /* Pods-CombineCocoaPractice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineCocoaPractice.modulemap"; sourceTree = "<group>"; };
+		20F16354DDB2015AE6DEEF0CBD0A3203 /* CombineCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineCocoa.release.xcconfig; sourceTree = "<group>"; };
+		2D90721DCFDA557DA8DEB0482BA88791 /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = Sources/CombineCocoa/DelegateProxy/DelegateProxy.swift; sourceTree = "<group>"; };
+		2FF0EA98429EF6B86860BF07FA29BD23 /* UISwitch+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwitch+Combine.swift"; path = "Sources/CombineCocoa/Controls/UISwitch+Combine.swift"; sourceTree = "<group>"; };
+		34109CD03EDA7A24CEAEFFB8B836004D /* Pods-CombineCocoaPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineCocoaPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		36F2999ADBBC906F43BB8F1157FEDBCB /* CombineControlTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineControlTarget.swift; path = Sources/CombineCocoa/CombineControlTarget.swift; sourceTree = "<group>"; };
+		3BD4BC46C66E04CB1E462043A83A3C9C /* UIPageControl+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageControl+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIPageControl+Combine.swift"; sourceTree = "<group>"; };
+		3CA42775A596080B849C4483026C49FB /* CombineCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CombineCocoa-dummy.m"; sourceTree = "<group>"; };
+		3D3DAD7E0D69E751C829A5C91B87B4A4 /* UISearchBar+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchBar+Combine.swift"; path = "Sources/CombineCocoa/Controls/UISearchBar+Combine.swift"; sourceTree = "<group>"; };
+		4B8A41F39BACC2D332E2B909384E7031 /* UITableView+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Combine.swift"; path = "Sources/CombineCocoa/Controls/UITableView+Combine.swift"; sourceTree = "<group>"; };
+		4D3320660ED51C0D3688E15553CCAB7A /* CombineCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineCocoa-umbrella.h"; sourceTree = "<group>"; };
+		53E6E7AB1E093D02C7B9989E971052E3 /* CombineCocoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CombineCocoa.h; path = Sources/CombineCocoa/CombineCocoa.h; sourceTree = "<group>"; };
+		56E175C518ED9961B2C7AF5E1C351DE6 /* NSTextStorage+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextStorage+Combine.swift"; path = "Sources/CombineCocoa/Controls/NSTextStorage+Combine.swift"; sourceTree = "<group>"; };
+		5BE24D1286FE03DAC05F98ADFDA14A6E /* Pods-CombineCocoaPractice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CombineCocoaPractice-umbrella.h"; sourceTree = "<group>"; };
+		5F4FDDB64D0408EA2ADF17165C071817 /* Pods-CombineCocoaPractice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineCocoaPractice-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C2FB9FFE24620D5D7954CAEC1F9394A /* UIGestureRecognizer+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIGestureRecognizer+Combine.swift"; sourceTree = "<group>"; };
+		6FAB931BA038E5EC8A4907BF021D1D2B /* CombineControlEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineControlEvent.swift; path = Sources/CombineCocoa/CombineControlEvent.swift; sourceTree = "<group>"; };
+		7A42E9F94427B2EE07E539C44A419CE2 /* UIBarButtonItem+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIBarButtonItem+Combine.swift"; sourceTree = "<group>"; };
+		828A07CE77A191A7B55C54AC12C89516 /* UIScrollView+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIScrollView+Combine.swift"; sourceTree = "<group>"; };
+		8463B0912EB501FC29E162D0AE476E21 /* UITextView+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Combine.swift"; path = "Sources/CombineCocoa/Controls/UITextView+Combine.swift"; sourceTree = "<group>"; };
+		8AEB18A468C5151D19E1BF250B9919D7 /* Pods-CombineCocoaPractice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineCocoaPractice-dummy.m"; sourceTree = "<group>"; };
+		9153DED918343BDB14909D45461A2004 /* ObjcDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjcDelegateProxy.h; path = Sources/Runtime/include/ObjcDelegateProxy.h; sourceTree = "<group>"; };
+		9563F8F0FF93B4A5E9EC73FA32A672DE /* DelegateProxyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxyType.swift; path = Sources/CombineCocoa/DelegateProxy/DelegateProxyType.swift; sourceTree = "<group>"; };
+		96068ED5B234FCB3383B98C756DE42AC /* CombineCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CombineCocoa.modulemap; sourceTree = "<group>"; };
+		99F3B5D84CF847F47013B173CDC14B62 /* AnimatedAssignSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedAssignSubscriber.swift; path = Sources/CombineCocoa/AnimatedAssignSubscriber.swift; sourceTree = "<group>"; };
+		99F76ECB07710774AD42F27A210F7D79 /* UICollectionView+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Combine.swift"; path = "Sources/CombineCocoa/Controls/UICollectionView+Combine.swift"; sourceTree = "<group>"; };
+		9BD00BF09B3B1D903A104641500E3540 /* UIRefreshControl+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIRefreshControl+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIRefreshControl+Combine.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A20F2175092BF096AAB2ABB31B8AA046 /* UISegmentedControl+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISegmentedControl+Combine.swift"; path = "Sources/CombineCocoa/Controls/UISegmentedControl+Combine.swift"; sourceTree = "<group>"; };
+		A2BEBBB72690E8BB700F13B3389DCDA1 /* UIControl+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIControl+Combine.swift"; sourceTree = "<group>"; };
+		AA964831BA37E8AE1EEBBD0E2C19E34D /* UIStepper+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStepper+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIStepper+Combine.swift"; sourceTree = "<group>"; };
+		B62B287C96A60E6DD5647EA3CE954661 /* Pods-CombineCocoaPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineCocoaPractice.release.xcconfig"; sourceTree = "<group>"; };
+		C796B522C6658479774F10043588E4FA /* DelegateProxyPublisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxyPublisher.swift; path = Sources/CombineCocoa/DelegateProxy/DelegateProxyPublisher.swift; sourceTree = "<group>"; };
+		DC4BF07C78A69944C4E394A9F95F3280 /* CombineControlProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineControlProperty.swift; path = Sources/CombineCocoa/CombineControlProperty.swift; sourceTree = "<group>"; };
+		E2472C75EEA64538C75495B407095370 /* UIButton+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIButton+Combine.swift"; sourceTree = "<group>"; };
+		E8CD0D1C63935F4E3A0CEB5FE18C551B /* Pods-CombineCocoaPractice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineCocoaPractice-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9A716684A305E884AA76F14C9CE6964 /* CombineCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineCocoa-prefix.pch"; sourceTree = "<group>"; };
+		EAC91070C4196357785C6A157C24782A /* libCombineCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCombineCocoa.a; path = libCombineCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1AE097D68342C3773475F62B65ABE6 /* ObjcDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ObjcDelegateProxy.m; path = Sources/Runtime/ObjcDelegateProxy.m; sourceTree = "<group>"; };
+		FFBF90CEDACD0C88474FCB0BF7D34C60 /* UIDatePicker+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDatePicker+Combine.swift"; path = "Sources/CombineCocoa/Controls/UIDatePicker+Combine.swift"; sourceTree = "<group>"; };
+		FFE604209AAA16ABE838C455C917A177 /* libPods-CombineCocoaPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CombineCocoaPractice.a"; path = "libPods-CombineCocoaPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73ACBDE7D4F853C3D7E864A546CCDD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE005658D9F6E502E14D1F3A1EC9BB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0726F13FC2D5955BED7010EF934EA6A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F1017BC1D4D8BD6DD790D61A7E179F4 /* CombineCocoa */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F1017BC1D4D8BD6DD790D61A7E179F4 /* CombineCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				99F3B5D84CF847F47013B173CDC14B62 /* AnimatedAssignSubscriber.swift */,
+				53E6E7AB1E093D02C7B9989E971052E3 /* CombineCocoa.h */,
+				6FAB931BA038E5EC8A4907BF021D1D2B /* CombineControlEvent.swift */,
+				DC4BF07C78A69944C4E394A9F95F3280 /* CombineControlProperty.swift */,
+				36F2999ADBBC906F43BB8F1157FEDBCB /* CombineControlTarget.swift */,
+				2D90721DCFDA557DA8DEB0482BA88791 /* DelegateProxy.swift */,
+				C796B522C6658479774F10043588E4FA /* DelegateProxyPublisher.swift */,
+				9563F8F0FF93B4A5E9EC73FA32A672DE /* DelegateProxyType.swift */,
+				56E175C518ED9961B2C7AF5E1C351DE6 /* NSTextStorage+Combine.swift */,
+				9153DED918343BDB14909D45461A2004 /* ObjcDelegateProxy.h */,
+				FF1AE097D68342C3773475F62B65ABE6 /* ObjcDelegateProxy.m */,
+				7A42E9F94427B2EE07E539C44A419CE2 /* UIBarButtonItem+Combine.swift */,
+				E2472C75EEA64538C75495B407095370 /* UIButton+Combine.swift */,
+				99F76ECB07710774AD42F27A210F7D79 /* UICollectionView+Combine.swift */,
+				A2BEBBB72690E8BB700F13B3389DCDA1 /* UIControl+Combine.swift */,
+				FFBF90CEDACD0C88474FCB0BF7D34C60 /* UIDatePicker+Combine.swift */,
+				6C2FB9FFE24620D5D7954CAEC1F9394A /* UIGestureRecognizer+Combine.swift */,
+				3BD4BC46C66E04CB1E462043A83A3C9C /* UIPageControl+Combine.swift */,
+				9BD00BF09B3B1D903A104641500E3540 /* UIRefreshControl+Combine.swift */,
+				828A07CE77A191A7B55C54AC12C89516 /* UIScrollView+Combine.swift */,
+				3D3DAD7E0D69E751C829A5C91B87B4A4 /* UISearchBar+Combine.swift */,
+				A20F2175092BF096AAB2ABB31B8AA046 /* UISegmentedControl+Combine.swift */,
+				17652C578425E8121DA113BA3C7254D0 /* UISlider+Combine.swift */,
+				AA964831BA37E8AE1EEBBD0E2C19E34D /* UIStepper+Combine.swift */,
+				2FF0EA98429EF6B86860BF07FA29BD23 /* UISwitch+Combine.swift */,
+				4B8A41F39BACC2D332E2B909384E7031 /* UITableView+Combine.swift */,
+				0E10E7201D95B8AAECBF085D367BE7B6 /* UITextField+Combine.swift */,
+				8463B0912EB501FC29E162D0AE476E21 /* UITextView+Combine.swift */,
+				E35FDF62B9BF07753CB7A437DD9E36A7 /* Support Files */,
+			);
+			name = CombineCocoa;
+			path = CombineCocoa;
+			sourceTree = "<group>";
+		};
+		7AFA138D0DD760B6072123DB6B8F9D0C /* Pods-CombineCocoaPractice */ = {
+			isa = PBXGroup;
+			children = (
+				1FA58BCC51CE3089A00683754A7262B9 /* Pods-CombineCocoaPractice.modulemap */,
+				5F4FDDB64D0408EA2ADF17165C071817 /* Pods-CombineCocoaPractice-acknowledgements.markdown */,
+				E8CD0D1C63935F4E3A0CEB5FE18C551B /* Pods-CombineCocoaPractice-acknowledgements.plist */,
+				8AEB18A468C5151D19E1BF250B9919D7 /* Pods-CombineCocoaPractice-dummy.m */,
+				5BE24D1286FE03DAC05F98ADFDA14A6E /* Pods-CombineCocoaPractice-umbrella.h */,
+				34109CD03EDA7A24CEAEFFB8B836004D /* Pods-CombineCocoaPractice.debug.xcconfig */,
+				B62B287C96A60E6DD5647EA3CE954661 /* Pods-CombineCocoaPractice.release.xcconfig */,
+			);
+			name = "Pods-CombineCocoaPractice";
+			path = "Target Support Files/Pods-CombineCocoaPractice";
+			sourceTree = "<group>";
+		};
+		91DD6F186C5A00BD49F2047C3148460E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA138D0DD760B6072123DB6B8F9D0C /* Pods-CombineCocoaPractice */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C6CDDED741EAE13129D90384F5A3A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC91070C4196357785C6A157C24782A /* libCombineCocoa.a */,
+				FFE604209AAA16ABE838C455C917A177 /* libPods-CombineCocoaPractice.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0726F13FC2D5955BED7010EF934EA6A7 /* Pods */,
+				9C6CDDED741EAE13129D90384F5A3A3C /* Products */,
+				91DD6F186C5A00BD49F2047C3148460E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E35FDF62B9BF07753CB7A437DD9E36A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96068ED5B234FCB3383B98C756DE42AC /* CombineCocoa.modulemap */,
+				3CA42775A596080B849C4483026C49FB /* CombineCocoa-dummy.m */,
+				E9A716684A305E884AA76F14C9CE6964 /* CombineCocoa-prefix.pch */,
+				4D3320660ED51C0D3688E15553CCAB7A /* CombineCocoa-umbrella.h */,
+				17B31261DDFF9D3AF8F893CCB765C197 /* CombineCocoa.debug.xcconfig */,
+				20F16354DDB2015AE6DEEF0CBD0A3203 /* CombineCocoa.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CombineCocoa";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DDEEE0163783D888866D844B71A0EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F7BA23588382D89C8ECC3A1F6152A8 /* CombineCocoa-umbrella.h in Headers */,
+				2206CF444FC76E2976B2B05761516EEA /* CombineCocoa.h in Headers */,
+				3F09A6255A2FCD7664A8ECC8F6632502 /* ObjcDelegateProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4833B039D0E27EEBA4BF72CD7479298B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9D5C6E89680F7FB73933A41E9CD95E /* Pods-CombineCocoaPractice-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C11E051A417486DA3B63E1333BABA34 /* CombineCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D15B785E9F91A163355A31C7CAAD8B5 /* Build configuration list for PBXNativeTarget "CombineCocoa" */;
+			buildPhases = (
+				1DDEEE0163783D888866D844B71A0EC4 /* Headers */,
+				37D3661CDA54B3D9495544523635CE84 /* Sources */,
+				73ACBDE7D4F853C3D7E864A546CCDD49 /* Frameworks */,
+				FE526C6E23E9C9AA70C9A7BE15A2F997 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineCocoa;
+			productName = CombineCocoa;
+			productReference = EAC91070C4196357785C6A157C24782A /* libCombineCocoa.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C316A09F76AC32684445CC4970B7EC4B /* Pods-CombineCocoaPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C468802DBE61B03C35F71E8926D68575 /* Build configuration list for PBXNativeTarget "Pods-CombineCocoaPractice" */;
+			buildPhases = (
+				4833B039D0E27EEBA4BF72CD7479298B /* Headers */,
+				B9E321599F1E8F790BB4BFBF7D7F3BB8 /* Sources */,
+				AE005658D9F6E502E14D1F3A1EC9BB44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9159EDEA17CB1A049BC2889EE2ABC239 /* PBXTargetDependency */,
+			);
+			name = "Pods-CombineCocoaPractice";
+			productName = "Pods-CombineCocoaPractice";
+			productReference = FFE604209AAA16ABE838C455C917A177 /* libPods-CombineCocoaPractice.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9C6CDDED741EAE13129D90384F5A3A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C11E051A417486DA3B63E1333BABA34 /* CombineCocoa */,
+				C316A09F76AC32684445CC4970B7EC4B /* Pods-CombineCocoaPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE526C6E23E9C9AA70C9A7BE15A2F997 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/CombineCocoa/CombineCocoa.modulemap",
+				"${PODS_ROOT}/Headers/Public/CombineCocoa/CombineCocoa-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/CombineCocoa-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CombineCocoa/CombineCocoa.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CombineCocoa/CombineCocoa-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D3661CDA54B3D9495544523635CE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA76EA2FDDE173C8F40523574B99DE4F /* AnimatedAssignSubscriber.swift in Sources */,
+				EE8AA18E245284DBF06777264AF777E8 /* CombineCocoa-dummy.m in Sources */,
+				80472F3C43D95F7FBFF3B9D223A98BD2 /* CombineControlEvent.swift in Sources */,
+				26AD4E09AB6D04258C097B9040D92934 /* CombineControlProperty.swift in Sources */,
+				9F46F44283D4D3862570930E2EFEE49E /* CombineControlTarget.swift in Sources */,
+				DE40B9F0F26A429A8AEF244D1EAAFE33 /* DelegateProxy.swift in Sources */,
+				911289361B8CD8AC92D23644A3221AC1 /* DelegateProxyPublisher.swift in Sources */,
+				0BADAD077E9F475DF0A487AD3F8B38CB /* DelegateProxyType.swift in Sources */,
+				4CCADB140FA531EC1796E924CA9A82B8 /* NSTextStorage+Combine.swift in Sources */,
+				9FEBA5D01B50CD5E2FCF6C9FDE41D3E8 /* ObjcDelegateProxy.m in Sources */,
+				58964B3C85A35C23F8D446665973B997 /* UIBarButtonItem+Combine.swift in Sources */,
+				C6D04FDBD45731E895B55BC839118F4C /* UIButton+Combine.swift in Sources */,
+				667A5B0688A381C896C99E90A733AC3A /* UICollectionView+Combine.swift in Sources */,
+				8211F76FD8F43930DCF76CA8B968B612 /* UIControl+Combine.swift in Sources */,
+				D6CA74E2C0D8ABD74D4F10E310804881 /* UIDatePicker+Combine.swift in Sources */,
+				214A146C4243A61F21C0485A77D09292 /* UIGestureRecognizer+Combine.swift in Sources */,
+				B231D7191EE7D01704F0F9D2406D60B9 /* UIPageControl+Combine.swift in Sources */,
+				CB9022A39DF758B52C89935C4619E24C /* UIRefreshControl+Combine.swift in Sources */,
+				94C96E4E225F63F37A0629C2A22BCDCE /* UIScrollView+Combine.swift in Sources */,
+				E881F0C8861A4A229A0BF728BEA40324 /* UISearchBar+Combine.swift in Sources */,
+				475261A5A38038600302A3757F736483 /* UISegmentedControl+Combine.swift in Sources */,
+				517324CF63B62F0A5A0F90AB50637BAE /* UISlider+Combine.swift in Sources */,
+				E2974FABD9E5B03F7FF517DE95982ACC /* UIStepper+Combine.swift in Sources */,
+				9EC278047565CE19A5424C54FF95133F /* UISwitch+Combine.swift in Sources */,
+				F97D94872E84E704690D555E07FE0D6C /* UITableView+Combine.swift in Sources */,
+				C1F7A7A0B4459EFF4E089BAD29BF6464 /* UITextField+Combine.swift in Sources */,
+				0005BAD2CDF5A27BC15D4FC702A09BE9 /* UITextView+Combine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E321599F1E8F790BB4BFBF7D7F3BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E5E6E9E920FCCB7E76EB4CA9F7A6C0 /* Pods-CombineCocoaPractice-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9159EDEA17CB1A049BC2889EE2ABC239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CombineCocoa;
+			target = 1C11E051A417486DA3B63E1333BABA34 /* CombineCocoa */;
+			targetProxy = F75ADA67A49196BA9E743A4E38B4FD92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16BD2882274E152557B7EEE3703BA5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F16354DDB2015AE6DEEF0CBD0A3203 /* CombineCocoa.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineCocoa/CombineCocoa-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/CombineCocoa/CombineCocoa.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CombineCocoa;
+				PRODUCT_NAME = CombineCocoa;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D37928F03BAD0083311C1E1B04408DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62B287C96A60E6DD5647EA3CE954661 /* Pods-CombineCocoaPractice.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineCocoaPractice/Pods-CombineCocoaPractice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E686192007CE25C8F35E06C1D08529B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B31261DDFF9D3AF8F893CCB765C197 /* CombineCocoa.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineCocoa/CombineCocoa-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/CombineCocoa/CombineCocoa.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CombineCocoa;
+				PRODUCT_NAME = CombineCocoa;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A21958B2DFD985C4B72CC4AB0E242D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34109CD03EDA7A24CEAEFFB8B836004D /* Pods-CombineCocoaPractice.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineCocoaPractice/Pods-CombineCocoaPractice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D15B785E9F91A163355A31C7CAAD8B5 /* Build configuration list for PBXNativeTarget "CombineCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E686192007CE25C8F35E06C1D08529B0 /* Debug */,
+				16BD2882274E152557B7EEE3703BA5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C468802DBE61B03C35F71E8926D68575 /* Build configuration list for PBXNativeTarget "Pods-CombineCocoaPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A21958B2DFD985C4B72CC4AB0E242D /* Debug */,
+				D37928F03BAD0083311C1E1B04408DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

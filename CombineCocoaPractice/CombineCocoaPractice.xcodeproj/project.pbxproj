@@ -13,6 +13,7 @@
 		1884339B256A7D1C009EDA67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18843399256A7D1C009EDA67 /* Main.storyboard */; };
 		1884339D256A7D24009EDA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1884339C256A7D24009EDA67 /* Assets.xcassets */; };
 		188433A0256A7D24009EDA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1884339E256A7D24009EDA67 /* LaunchScreen.storyboard */; };
+		E80BDB5FD33752C9EAA9C676 /* libPods-CombineCocoaPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B797527DEF4D89915A6C97E9 /* libPods-CombineCocoaPractice.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		1884339C256A7D24009EDA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1884339F256A7D24009EDA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188433A1256A7D24009EDA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B797527DEF4D89915A6C97E9 /* libPods-CombineCocoaPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CombineCocoaPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0719806FF48B8C55DE0E3BC /* Pods-CombineCocoaPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineCocoaPractice.release.xcconfig"; path = "Target Support Files/Pods-CombineCocoaPractice/Pods-CombineCocoaPractice.release.xcconfig"; sourceTree = "<group>"; };
+		FE5D0DC196874CB6E3544B85 /* Pods-CombineCocoaPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineCocoaPractice.debug.xcconfig"; path = "Target Support Files/Pods-CombineCocoaPractice/Pods-CombineCocoaPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80BDB5FD33752C9EAA9C676 /* libPods-CombineCocoaPractice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				18843392256A7D1C009EDA67 /* CombineCocoaPractice */,
 				18843391256A7D1C009EDA67 /* Products */,
+				5C38DBA33658856E21B04C72 /* Pods */,
+				5072CB54250F72BF7DE8BA17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = CombineCocoaPractice;
 			sourceTree = "<group>";
 		};
+		5072CB54250F72BF7DE8BA17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B797527DEF4D89915A6C97E9 /* libPods-CombineCocoaPractice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C38DBA33658856E21B04C72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE5D0DC196874CB6E3544B85 /* Pods-CombineCocoaPractice.debug.xcconfig */,
+				D0719806FF48B8C55DE0E3BC /* Pods-CombineCocoaPractice.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 188433A4256A7D24009EDA67 /* Build configuration list for PBXNativeTarget "CombineCocoaPractice" */;
 			buildPhases = (
+				F23A914ECF09B07A315DEAD5 /* [CP] Check Pods Manifest.lock */,
 				1884338C256A7D1C009EDA67 /* Sources */,
 				1884338D256A7D1C009EDA67 /* Frameworks */,
 				1884338E256A7D1C009EDA67 /* Resources */,
@@ -131,6 +157,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F23A914ECF09B07A315DEAD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombineCocoaPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1884338C256A7D1C009EDA67 /* Sources */ = {
@@ -283,6 +334,7 @@
 		};
 		188433A5256A7D24009EDA67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5D0DC196874CB6E3544B85 /* Pods-CombineCocoaPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +354,7 @@
 		};
 		188433A6256A7D24009EDA67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0719806FF48B8C55DE0E3BC /* Pods-CombineCocoaPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
